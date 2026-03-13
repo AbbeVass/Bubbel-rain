@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-color: whitesmoke;
+      }
+      #toggleActiveContainer {
+        margin: 0 0 10px;
+      }
+      label {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      #toggleActive {
+        width: 15px;
+        height: 15px;
+      }
+      h3 {
+        margin: 10px 0 0;
+      }
+      #intensityDisplay, #sizeDisplay {
+        margin: 0;
+      }
+      #intensityControl, #sizeControl {
+        margin: 5px 0 2px;
+      }
+      #imageUrlInput {
+        margin: 20px 0 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="toggleActiveContainer">
+      <label for="toggleActive">Active</label>
+      <input type="checkbox" id="toggleActive">
+    </div>
+  
+    <h3>Intensity</h3>
+    <input type="range" min="1" max="1000" value="700" id="intensityControl">
+    <p id="intensityDisplay"></p>
+
+    <h3>Size</h3>
+    <input type="range" min="10" max="500" value="40" id="sizeControl">
+    <p id="sizeDisplay"></p>
+
+    <input type="url" placeholder="Image url" id="imageUrlInput">
+    <button id="imageUpdateBtn">Update image</button>
+    <button id="bubbelBtn">Bubbel</button>
+
+    <script src="control.js"></script>
+  </body>
+</html>
