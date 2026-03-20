@@ -19,7 +19,7 @@ Updated Mars 2026
 
 3. Enable **Developer mode** by clicking the toggle switch in the top right corner of the page and click the **Load unpacked** button that appears.
 
-4. Locate, select and open the folder with the extension. It is most likely named `Bubbel-rain` if you did not rename it.
+4. Locate, select and open the folder with the extension. It is most likely named `Bubbel-rain-main` if you did not rename it.
 
 5. The extension is now ready to be used in developer mode in your browser but I highly recommend that you go in to the **Details** of the extension and toggle on **Pin to toolbar**. This makes sure that it always appear and is accessible in the toolbar next to the search bar. It's by clicking the bubble icon in the toolbar that you open the controls for the extension.
 
